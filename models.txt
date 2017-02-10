@@ -1,0 +1,42 @@
+Service:
+    -id
+    -name
+    -price
+    -description
+    -
+
+User:
+    -id
+    -name.
+    -email.
+    -password.
+    -Role(Fk)
+    -dni
+    -address
+
+Role:
+    -id
+    -name
+
+client:
+    -id
+    -name
+    -dni
+
+car:
+    -id
+    -plate
+    -owner
+    -brand
+    -arrival_time
+    -payment_document_id
+
+Type of Document
+
+Voucher
+    -id
+    -name
+    -n
+
+Bill
+
